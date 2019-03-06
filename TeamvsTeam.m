@@ -65,7 +65,7 @@ tableout.LS1 = data(:,12);
 
 %%
 len=size(tableout,1);
-for 2:2:len
+for i=2:2:len
     newRow(1,i/2).Opposition=tableout.Team1(i,1)(3:end);
 end
 
